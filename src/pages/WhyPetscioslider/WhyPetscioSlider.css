@@ -1,0 +1,58 @@
+.WhyPetscioSlider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 1rem 0;
+}
+
+/* Continuous sliding track */
+.WhyPetscioSlider_pet-slider-track {
+    display: flex;
+    gap: 25px;
+    animation: scroll 25s linear infinite;
+    will-change: transform;
+}
+
+/* Each image container */
+.WhyPetscioSlider_pet-slider-track_pet-slide {
+    flex: 0 0 auto;
+    width: 80%;
+    height: 600px;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.WhyPetscioSlider_pet-slider-track_pet-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* Infinite continuous scroll effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .WhyPetscioSlider_pet-slider-track_pet-slide {
+        width: 100%;
+        height: 300px;
+        border-radius: 5px;
+    }
+
+    .WhyPetscioSlider_pet-slider-track {
+        display: flex;
+        gap: 15px;
+        animation: scroll 15s linear infinite;
+        will-change: transform;
+    }
+}

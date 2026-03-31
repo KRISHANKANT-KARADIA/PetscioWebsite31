@@ -1,0 +1,18 @@
+<svg width="1920" height="1869" viewBox="0 0 1920 1869" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_f_231_3342)">
+<circle opacity="0.7" cx="120.265" cy="1061.81" r="201.265" transform="rotate(-90 120.265 1061.81)" fill="#8761FC"/>
+<circle opacity="0.7" cx="1895.94" cy="378.945" r="274.942" transform="rotate(-90 1895.94 378.945)" fill="#5458E1"/>
+<circle cx="1451.34" cy="921.344" r="94.3428" transform="rotate(-90 1451.34 921.344)" fill="#5458E1"/>
+<circle opacity="0.7" cx="1022.86" cy="257.862" r="204.859" transform="rotate(-90 1022.86 257.862)" fill="#FBC768"/>
+<circle cx="270.662" cy="400.666" r="82.6623" transform="rotate(-90 270.662 400.666)" fill="#F59000"/>
+<circle cx="1837.66" cy="1362.66" r="82.6623" transform="rotate(-90 1837.66 1362.66)" fill="#F59000"/>
+<circle cx="882.889" cy="1163.89" r="186.889" transform="rotate(-90 882.889 1163.89)" fill="#FBC868"/>
+</g>
+<defs>
+<filter id="filter0_f_231_3342" x="-581" y="-446.997" width="3251.88" height="2392.32" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_231_3342"/>
+</filter>
+</defs>
+</svg>

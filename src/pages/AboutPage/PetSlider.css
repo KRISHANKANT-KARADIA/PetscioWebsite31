@@ -1,0 +1,57 @@
+.pet-slider-wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 10rem 0;
+}
+
+/* Continuous sliding track */
+.pet-slider-track {
+    display: flex;
+    gap: 25px;
+    animation: scroll 25s linear infinite;
+    will-change: transform;
+}
+
+/* Each image container */
+.pet-slide {
+    flex: 0 0 auto;
+    width: 280px;
+    height: 463px;
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+
+.pet-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/* Infinite continuous scroll effect */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .pet-slide {
+        width: 200px;
+        height: 300px;
+    }
+
+    .pet-slider-track {
+        display: flex;
+        gap: 25px;
+        animation: scroll 15s linear infinite;
+        will-change: transform;
+    }
+}
